@@ -34,3 +34,4 @@ System.out.println(s);
 }
 }
 }
+//program for ascending alphbet
