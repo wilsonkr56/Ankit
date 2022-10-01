@@ -11,11 +11,11 @@ int n=in.nextInt();
 switch(n)
 {
 case 1:
-System.out.println("Enter Principal"); 
+System.out.println("Enter Principal : "); 
 double a=in.nextInt();
-System.out.println("Enter Rate");
+System.out.println("Enter Rate : ");
 double b=in.nextInt();
-System.out.println("Enter Time in year");
+System.out.println("Enter Time in year : ");
 double c=in.nextInt();
 double am=a*(Math.pow(1+b/100,c));
 System.out.println(am);
