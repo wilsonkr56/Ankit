@@ -9,7 +9,7 @@ BufferedReader in=new BufferedReader(read);
 int a,b;
 String n;
 char ch;
-System.out.println("Enter the string");
+System.out.println("Enter the string : ");
 n=in.readLine();
 b=n.length();
 for(a=0;a<b;a++)
