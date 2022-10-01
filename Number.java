@@ -13,8 +13,8 @@ s=a+b; //Sum of two digit
 p=a*b; //Product of two digit
 m=s+p;
 if(m==n)
-System.out.println("The number is special");
+System.out.println("The number is special : ");
 else
-System.out.println("The number is not special");
+System.out.println("The number is not special : ");
 }
 }
