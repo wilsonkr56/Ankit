@@ -9,7 +9,7 @@ int i,j,x;
 int a[]=new int[5];
 for(i=0;i<5;i++) 
 {
-System.out.println("Enter the number in the cells");
+System.out.println("Enter the number in the cells :");
 a[i]=Integer.parseInt(in.readLine());
 }
 for(i=0;i<4;i++)
