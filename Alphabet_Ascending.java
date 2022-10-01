@@ -9,7 +9,7 @@ int i,j,p;
 char a[]=new char[5];
 char x;
 String n,s=" ";
-System.out.println("Enter the word");
+System.out.println("Enter the word : ");
 n=in.readLine();
 p=n.length();
 for(i=0;i<p;i++)
