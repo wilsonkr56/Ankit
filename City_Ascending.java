@@ -10,7 +10,7 @@ String a[]=new String[10];
 String x=" ";
 for(i=0;i<10;i++)
 {
-System.out.println("Enter the names of ten States");
+System.out.println("Enter the names of ten States : ");
 a[i]=in.readLine();
 }
 for(i=0;i<9;i++)
@@ -25,7 +25,7 @@ a[j]=x;
 }
 }
 }
-System.out.println("The city names in ascending order are");
+System.out.println("The city names in ascending order are :");
 for(i=0;i<10;i++)
 System.out.println(a[i]);
 }
