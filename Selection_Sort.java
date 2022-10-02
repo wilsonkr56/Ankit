@@ -8,7 +8,7 @@ int i,j,x,min;
 int a[]=new int[10];
 for(i=0;i<10;i++)
 {
-System.out.println("Enter the number");
+System.out.println("Enter the number : ");
 a[i]=in.nextInt();
 }
 for(i=0;i<9;i++)
@@ -23,7 +23,7 @@ x=a[i];
 a[i]=a[min];
 a[min]=x;
 }
-System.out.println("The number in ascending order are");
+System.out.println("The number in ascending order are : ");
 for(i=0;i<10;i++)
 System.out.println(a[i]);
 }
